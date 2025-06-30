@@ -14,4 +14,4 @@ class TestBookingManagement(unittest.TestCase):
         booking_date = "2025-06-25"
 
         result = self.transport_service.book_trip(trip_id, passenger_id, booking_date)
-        self.assertTrue(result, f"❌ Booking failed for passenger {passenger_id} on trip {trip_id}")
+        self.assertTrue(result, f" Booking failed for passenger {passenger_id} on trip {trip_id}")
